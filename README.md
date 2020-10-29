@@ -130,7 +130,7 @@ python initiate_scoreboard.py
 # 스크린샷
 
 ## 게임플레이 영상
-[유튜브에서 보기](https://www.youtube.com/watch?v=99Li9SL3Vt0?t=0s)
+[유튜브에서 보기](https://www.youtube.com/watch?v=CkQKDU5AZGs&feature=youtu.be)
 
 ## Title
 ![image0](./screenshots/unknown0.png)
