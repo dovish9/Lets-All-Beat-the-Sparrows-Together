@@ -2861,8 +2861,8 @@ while True:
                 elif eliteenemy.eliteenemyType=="broodlord":
                     score += SCORE_BROODLORD
                 if not eliteenemy.eliteenemyType=="eliteostrich":
-                    if r.randint(0, 7)==0:
-                        foodRect(eliteenemy.rect.centerx+15, eliteenemy.rect.top-30, 30, 30, "potionLarge").summon() #포션 드랍 12.5%
+                    if r.randint(0, 15)==0:
+                        foodRect(eliteenemy.rect.centerx+15, eliteenemy.rect.top-30, 30, 30, "potionLarge").summon() #포션 드랍 6.25%
                 eliteenemy.kill()
                 statistics_killEliteenemyCount += 1
         #정예 해로운 새
