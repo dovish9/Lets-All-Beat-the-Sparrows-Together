@@ -7,7 +7,9 @@ made with `pygame`, made by `whitedove428`
 
 ### 파이썬 설치
 
-[여기](https://www.python.org/downloads/)에서 파이썬을 설치. 3.8까지 정상 작동했고 3.9 이상에서 될지 모르겠음.
+[여기](https://www.python.org/downloads/)에서 파이썬을 설치한다. 3.8까지 정상 작동했고 3.9 이상은 불확실함.
+
+반드시 설치 도중 환경변수(Path) 추가를 체크해야 한다.
 
 ### 패키지 설치
 
@@ -16,15 +18,15 @@ pip install pygame
 pip install numpy
 ```
 
-처음 파이썬을 깔았다면 같이 깔리는 pip(패키지 관리 도구)이 구버전이라 오류 메시지가 출력될 수 있음.
+처음 파이썬을 깔았다면 같이 깔리는 pip(패키지 관리 도구)이 구버전이라 오류 메시지가 출력될 수 있다.
 차분히 메시지대로
 
 ```
 pip install --upgrade pip
 ```
-을 통해 최신 버전으로 업그레이드.
+을 통해 최신 버전으로 업그레이드한다.
 
-## 사용 전 주의사항
+## Launch
 
 ### 게임 실행
 
