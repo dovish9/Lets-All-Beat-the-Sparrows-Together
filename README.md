@@ -126,7 +126,7 @@ python initiate_scoreboard.py
 
 ## 아직 수정되지 않은 버그
 
--
+\-
 
 # 스크린샷
 
