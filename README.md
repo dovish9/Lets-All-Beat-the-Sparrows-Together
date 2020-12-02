@@ -3,15 +3,13 @@
 ## **version: 1.0.7**
 made with `pygame`, made by `whitedove428`
 
-## Quick Setup
+## setup
 
-### 파이썬 설치
+파이썬을 설치한다. 3.7에서 정상 작동하고, 대부분의 버전에서 잘 작동할 것이다.
 
-[여기](https://www.python.org/downloads/)에서 파이썬을 설치한다. 3.8까지 정상 작동했고 3.9 이상은 불확실하다.
+[여기](https://www.python.org/downloads/)에서 설치하는 윈도우 사용자들은 반드시 설치 중 '환경변수(Path) 추가'를 선택해야 한다.
 
-반드시 설치 도중 '환경변수(Path) 추가'를 선택해야 한다.
-
-### 패키지 설치
+필수 패키지를 설치한다.
 
 ```
 pip install pygame
@@ -19,45 +17,39 @@ pip install numpy
 ```
 
 파이썬을 설치할 때 같이 설치되는 pip(패키지 관리 도구)이 구버전이면 오류 메시지가 출력될 수 있다.
-차분히 메시지대로
+그럴 때는 차분히 메시지대로
 
 ```
 pip install --upgrade pip
 ```
+
 을 통해 최신 버전으로 업그레이드한다.
 
+## download
+```
+cd my_path
+git clone https://github.com/gkm42917/Lets-All-Beat-the-Sparrows-Together.git
+```
+
+또는 직접 다운로드해서 적당한 곳에 위치시킨다.
+
 ## Launch Game
-
-(Windows에서) game.pyw를 더블클릭한다.
-
-Windows가 아니거나, 파이썬이 단순하게 설치되어 있지 않고 가상환경 등을 사용하고 있다는 등의 이유로 직접 실행하지 못한다면, 아래 방법을 따른다.
-
-윈도우라면 명령 프롬프트, 리눅스나 Mac 등은 터미널을 실행하고, Anaconda를 사용 중이라면 파이썬과 패키지를 설치한 환경을 활성화한다.
-
 ```
-cd [경로]
-```
-를 입력한다.
-
-게임을 실행하고 싶다면
-
-```
+cd my_path/Lets-All-Beat-the-Sparrows-Together
 python game.pyw
 ```
 
-를 입력한다.
-
-확장자가 pyw면 파이썬 쉘 없이 실행된다고 하지만, 이 방법대로 하면 명령 창이 그대로 남아있을 것이다. ……아마도?
+또는 다른 방법으로 실행하여도 좋다.
 
 ### 점수판 초기화
-
-(Windows에서) 더블클릭으로 실행 또는
-
 ```
+cd my_path/Lets-All-Beat-the-Sparrows-Together
 python initiate_scoreboard.py
 ```
 
-점수판은 게임이 끝날 때 표시되고 직접 옵션에서 확인할 수도 있다.
+초기화된 점수판은 복구할 수 없다.
+
+점수판은 게임 내에서 확인할 수 있다.
 
 ## 해로운 새를 때려죽이자
 * 플레이타임: 10분 내외
@@ -70,11 +62,9 @@ python initiate_scoreboard.py
 
 * ESC: 옵션 (게임 스테이지에서만)
 
-* initiate_scoreboard로 점수판을 초기화할 경우 복구할 수 없음
-
 * 게임 스테이지에서의 조작법: Menu → Option → Controls에 대략 첨부
 
-![guideline](./screenshots/controls_guideline.png)
+<img src = "./screenshots/controls_guideline.png" width="75%">
 
 # 게임 플레이
 
@@ -140,44 +130,44 @@ python initiate_scoreboard.py
 [유튜브에서 보기](https://www.youtube.com/watch?v=CkQKDU5AZGs&feature=youtu.be)
 
 ## Title
-![image0](./screenshots/unknown0.png)
+<img src = "./screenshots/unknown0.png" width="75%">
 
 ## Menu
-![image1](./screenshots/unknown1.png)
+<img src = "./screenshots/unknown1.png" width="75%">
 
-![image2](./screenshots/unknown2.png)
+<img src = "./screenshots/unknown2.png" width="75%">
 
-![image3](./screenshots/unknown3.png)
+<img src = "./screenshots/unknown3.png" width="75%">
 
 ## befor Game
-![image4](./screenshots/unknown4.png)
+<img src = "./screenshots/unknown4.png" width="75%">
 
-![image5](./screenshots/unknown5.png)
+<img src = "./screenshots/unknown5.png" width="75%">
 
 ## in Game
-![image6](./screenshots/unknown6.png)
+<img src = "./screenshots/unknown6.png" width="75%">
 
-![image7](./screenshots/unknown7.png)
+<img src = "./screenshots/unknown7.png" width="75%">
 
-![image8](./screenshots/unknown8.png)
+<img src = "./screenshots/unknown8.png" width="75%">
 
-![image9](./screenshots/unknown9.png)
+<img src = "./screenshots/unknown9.png" width="75%">
 
-![image10](./screenshots/unknown10.png)
+<img src = "./screenshots/unknown10.png" width="75%">
 
-![image11](./screenshots/unknown11.png)
+<img src = "./screenshots/unknown11.png" width="75%">
 
-![image12](./screenshots/unknown12.png)
+<img src = "./screenshots/unknown12.png" width="75%">
 
 ## after Game
-![image13](./screenshots/unknown13.png)
+<img src = "./screenshots/unknown13.png" width="75%">
 
-![image14](./screenshots/unknown14.png)
+<img src = "./screenshots/unknown14.png" width="75%">
 
 ## Statistics & Board
-![image15](./screenshots/unknown15.png)
+<img src = "./screenshots/unknown15.png" width="75%">
 
-![image16](./screenshots/unknown16.png)
+<img src = "./screenshots/unknown16.png" width="75%">
 
 # 여담
 
@@ -185,15 +175,15 @@ python initiate_scoreboard.py
 
 1. 첫째로 미숙한 상태에서 만든 스파게티 코드. 돌과 충돌하면 삭제되는 일반 새를 만들고 생명력이 있는 정예 새를 만들었는데, 일반 새도 애초에 생명력이 1인 정예 새로 만들었으면 상당히 코드가 간결해졌을 것이다. 
 
-1. C/C++에서는 잘만 되던 Backspace '\b'가 작동하지 않는다. 이것 때문에 점수판 만드는 데 상당히 고생했다.
+1. C/C++에서는 잘만 되던 Backspace '\b'가 작동하지 않는다. 이것 탓에 점수판 만드는 데 상당히 고생했다. 아마 내가 모르는 다른 방법이 있지 싶다.
 
-1. 플레이어는 클래스를 배우기 전에 만든 것이라 객체가 아니다. 객체로 만들었으면 2player도 쉽게 만들 수 있을 텐데 조금 아쉽다. 그러나 객체가 아니었던 돌을 어쩔 수 없이 객체로 뜯어고치면서 고생을 실컷 했었고 지금 플레이어까지 고치면서 고생할 생각은 없다.
+1. 플레이어는 클래스를 배우기 전에 만들어서 객체가 아니다. 객체로 만들었으면 2player도 쉽게 만들 수 있을 텐데 조금 아쉬운 점이다. 그러나 객체가 아니었던 돌을 객체로 뜯어고치면서 고생을 실컷 했었고 당장 불필요하게 플레이어까지 수정하면서 고생할 생각은 없다.
 
-1. 게임 스테이지에서만 24프레임이다. 이게 말할 거리가 많은 게, 'pygame.image.load()'마다 뒤에 .convert()나 convert_alpha()를 붙이지 않으면 매 틱마다 이미지를 로드한다고 한다. 스텍오버플로우에서 그렇게 말했다. 실제로 측정해보니 60프레임으로 설정해놓은 것이 24프레임으로 작동하고 있었다. 그래서 전부 수정 한 다음 게임 스테이지에서만 24프레임으로 작동하게 바꿨다. (convert()와 convert_alpha()의 차이는 후자가 투명색을 지원한다는 것.) 참새 같은 경우는 속력이 3~4 정도 되는데 이걸 60프레임으로 했으면 정수만 지원하는 pygame에서 어떻게 만들었을까 하는 생각도 든다. 새옹지마.
+1. 게임 스테이지에서만 24프레임이다. 이게 말할 거리가 많은 게, 'pygame.image.load()'마다 뒤에 .convert()나 convert_alpha()를 붙이지 않으면 매 틱마다 이미지를 로드한다고 한다. 한창 작업하는 도중 알게 되었다. 실제로 측정해보니 60프레임으로 설정해놓은 것이 24프레임으로 작동하고 있었다. 그래서 전부 수정한 다음 게임 스테이지에서만 24프레임으로 작동하게 바꿨다. (convert()와 convert_alpha()의 차이는 후자가 투명색을 지원한다는 것.) 참새 같은 경우는 속력이 3~4 정도인데 이걸 60프레임으로 했으면 정수만 지원하는 pygame에서 어떻게 만들었을까 하는 생각도 든다. 새옹지마라고 할 만하다.
 
 1. 그 많은 텍스트들을 만들 때 배경을 투명하게 할 경우 하나당 7줄 정도를 차지한다. 처음부터 함수를 만들어서 텍스트를 생성할 걸 하는 생각이 든다.
 
-1. 많은 사진을 다른 곳에서 가져왔다. 메탈슬러그에서 관통, 샷건, 퀵차지의 아이콘과 UFO를, 스타크래프트에서 스파이어, 그레이터 스파이어, 뮤탈리스크, 무리군주를, 히어로즈 오브 더 스톰에서 포션과 메디브를, 평창 동계 올림픽에 등장하여 특유의 기괴함으로 유명했던 인면조를 사용했다.
+1. 많은 사진을 여러 게임 또는 유명한 밈에서 가져왔다. 메탈슬러그에서 관통, 샷건, 퀵차지의 아이콘과 UFO를, 스타크래프트에서 스파이어, 그레이터 스파이어, 뮤탈리스크, 무리군주를, 히어로즈 오브 더 스톰에서 포션과 메디브를, 평창 동계 올림픽에 등장하여 특유의 기괴함으로 유명했던 인면조를 사용했다.
 
 1. 보스 인면조에서 패턴을 만든다고 "춤을 추지 않으면 잡아먹을 테야!"라는 대사를 달아놓고 플레이어가 왼쪽 오른쪽으로 움직이지 않으면 참새가 똥을 싸게 만들었다. 결과물은 심히 조잡하기가 이를 데가 없다.
 
@@ -212,7 +202,7 @@ alpha_img.fill((255, 255, 255, 255))
 text.blit(alpha_img, (0, 0), special_flags=pygame.BLEND_RGBA_MULT)
 ```
 
-```batch
+```bat
 :: ImageMagick의 convert [입력] -strip [출력]
 @echo off
 echo All files in format png will be converted.
@@ -259,7 +249,7 @@ pause
 
 ## 통계를 만든 이유
 
-누군가 이걸로 강화학습을 해보면 좋을 것 같다고 말했다. 그런데 이런 통계가 명확해야 한다고 말해서 고생 끝에 30개를 만들었다. 그런데 지금 기능으로는 게임이 종료되기 전까지 반환하는 기능이 없어서 수정해야 할지도 모르겠다. 그리고 별로 하고 싶지 않다…….
+누군가 이걸로 `강화학습`을 해보면 좋을 것 같다고 말했다. 그런데 이런 통계가 명확해야 한다고 말해서 고생 끝에 30개를 만들었다. 그런데 지금 기능으로는 게임이 종료되기 전까지 반환하는 기능이 없어서 수정해야 할지도 모르겠다. 그리고 별로 하고 싶지 않다…….
 
 ## 효과음이 없는 이유
 
