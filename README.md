@@ -33,7 +33,7 @@ git clone https://github.com/gkm42917/Lets-All-Beat-the-Sparrows-Together.git
 
 또는 직접 다운로드해서 적당한 곳에 위치시킨다.
 
-## Launch Game
+## run
 ```
 cd my_path/Lets-All-Beat-the-Sparrows-Together
 python game.pyw
@@ -41,7 +41,7 @@ python game.pyw
 
 또는 다른 방법으로 실행하여도 좋다.
 
-### 점수판 초기화
+## initiate scoreboard
 ```
 cd my_path/Lets-All-Beat-the-Sparrows-Together
 python initiate_scoreboard.py
