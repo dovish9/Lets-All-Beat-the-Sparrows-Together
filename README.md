@@ -12,39 +12,39 @@ made with `pygame`, made by `whitedove428`
 필수 패키지를 설치한다.
 
 ```
-pip install pygame
-pip install numpy
+$ pip install pygame
+$ pip install numpy
 ```
 
 파이썬을 설치할 때 같이 설치되는 pip(패키지 관리 도구)이 구버전이면 오류 메시지가 출력될 수 있다.
 그럴 때는 차분히 메시지대로
 
 ```
-pip install --upgrade pip
+$ pip install --upgrade pip
 ```
 
 을 통해 최신 버전으로 업그레이드한다.
 
 ## download
 ```
-cd my_path
-git clone https://github.com/gkm42917/Lets-All-Beat-the-Sparrows-Together.git
+$ cd my_path
+$ git clone https://github.com/gkm42917/Lets-All-Beat-the-Sparrows-Together.git
 ```
 
 또는 직접 다운로드해서 적당한 곳에 위치시킨다.
 
 ## run
 ```
-cd my_path/Lets-All-Beat-the-Sparrows-Together
-python game.pyw
+$ cd my_path/Lets-All-Beat-the-Sparrows-Together
+$ python game.pyw
 ```
 
 또는 다른 방법으로 실행하여도 좋다.
 
 ## initiate scoreboard
 ```
-cd my_path/Lets-All-Beat-the-Sparrows-Together
-python initiate_scoreboard.py
+$ cd my_path/Lets-All-Beat-the-Sparrows-Together
+$ python initiate_scoreboard.py
 ```
 
 초기화된 점수판은 복구할 수 없다.
