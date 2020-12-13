@@ -4,10 +4,7 @@
 made with `pygame`, made by `whitedove428`
 
 ## setup
-
-파이썬을 설치한다. 3.7에서 정상 작동하고, 대부분의 버전에서 잘 작동할 것이다.
-
-[여기](https://www.python.org/downloads/)에서 설치하는 윈도우 사용자들은 반드시 설치 중 '환경변수(Path) 추가'를 선택해야 한다.
+파이썬을 설치한다. 3.7에서 정상 작동하고, 대부분의 버전에서 잘 작동할 것이다. [여기](https://www.python.org/downloads/)에서 설치하는 윈도우 사용자들은 반드시 설치 중 '환경변수(Path) 추가'를 선택해야 한다.
 
 필수 패키지를 설치한다.
 
@@ -172,7 +169,6 @@ $ python initiate_scoreboard.py
 # 여담
 
 ## 문제점
-
 1. 첫째로 미숙한 상태에서 만든 스파게티 코드. 돌과 충돌하면 삭제되는 일반 새를 만들고 생명력이 있는 정예 새를 만들었는데, 일반 새도 애초에 생명력이 1인 정예 새로 만들었으면 상당히 코드가 간결해졌을 것이다. 
 
 1. C/C++에서는 잘만 되던 Backspace '\b'가 작동하지 않는다. 이것 탓에 점수판 만드는 데 상당히 고생했다. 아마 내가 모르는 다른 방법이 있지 싶다.
@@ -214,43 +210,41 @@ pause
 ```
 
 ## 참새의 무작위적 움직임
-
 만들기 위해 고민을 많이 했던 대목이다. 결국 구현한 방법은 다음과 같다. 허공의 x, y 좌표 tuple을 촘촘하게 모아 배열에 넣은 뒤 저장한다. 그것들이 ./array에 있는 네 개의 파일이다. 처음 생성될 때 그 중 하나를 목표지점으로 잡고 그쪽으로 이동한다. 도달하면 다시 다른 목표지점을 잡아 이동한다. 계속 반복한다.
 
 ## 뮤탈리스크의 이동 경로
-
 매개변수 θ를 사용하여 나타낼 수 있다.
 
-![equation1](./screenshots/equation1.png)
+<img src = "./screenshots/equation1.png" width="50%">
 
-![result1](./screenshots/result1.png)
-![result2](./screenshots/result2.png)
-![result3](./screenshots/result3.png)
+<img src = "./screenshots/result1.png" width="50%">
+<img src = "./screenshots/result2.png" width="75%">
+<img src = "./screenshots/result3.png" width="75%">
 
 그래프의 모양을 가다듬기 위해서 아래 식을 곱한다.(scaling)
 
-![equation2](./screenshots/equation2.png)
+<img src = "./screenshots/equation2.png" width="20%">
 
 아래와 같이 표현된다.
 
-![equation3](./screenshots/equation3.png)
+<img src = "./screenshots/equation3.png" width="60%">
 
-![graph](./screenshots/graph.png)
+<img src = "./screenshots/graph.png" width="60%">
 
 θ 값에 따른 점의 위치
 
-![gif](./screenshots/graph.gif)
+<img src = "./screenshots/graph.gif" width="60%">
 
 이를 활용하여 뮤탈리스크의 이동 경로를 만들 수 있다.
 
 ## 메디브의 패턴
-
 허공을 맴돌다 착지해 비전균열을 발사한다. 플레이어가 피격당하면 다시 발사한다. 피했다면 다시 까마귀로 변신한다. 첨하자면 원작(HOS) 고증이다.
 
 ## 통계를 만든 이유
-
-누군가 이걸로 `강화학습`을 해보면 좋을 것 같다고 말했다. 그런데 이런 통계가 명확해야 한다고 말해서 고생 끝에 30개를 만들었다. 그런데 지금 기능으로는 게임이 종료되기 전까지 반환하는 기능이 없어서 수정해야 할지도 모르겠다. 그리고 별로 하고 싶지 않다…….
+누군가 이걸로 `강화학습`을 해보면 좋을 것 같다고 말했다. 그런데 이런 통계가 명확해야 한다고 말해서 고생 끝에 30개를 만들었다. 그런데 지금 기능으로는 게임이 종료되기 전까지 반환하는 기능이 없어서 수정해야 할지도 모르겠다. 그리고 별로 하고 싶지 않다.
 
 ## 효과음이 없는 이유
+원래 넣으려고 했지만 작업량이 너무 많아서 생략했다. 1.0.8에는 효과음이 들어갈지도.
 
-원래 넣으려고 했지만 작업량이 너무 많아서 생략했다. 1.0.8에는 효과음이 들어갈지도?
+# License
+다같이 참새를 때려잡자는 GNU General Public License v3.0 아래 배포됩니다. 세부사항은 [LICENSE](./LICENSE) 파일에서 확인하십시오.
