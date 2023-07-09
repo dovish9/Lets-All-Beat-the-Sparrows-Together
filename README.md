@@ -25,7 +25,7 @@ $ pip install --upgrade pip
 ## download
 ```
 $ cd my_path
-$ git clone https://github.com/gkm42917/Lets-All-Beat-the-Sparrows-Together.git
+$ git clone https://github.com/dovish9/Lets-All-Beat-the-Sparrows-Together.git
 ```
 
 또는 직접 다운로드해서 적당한 곳에 위치시킨다.
